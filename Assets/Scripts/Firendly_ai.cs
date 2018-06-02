@@ -6,7 +6,9 @@ using UnityEngine.AI;
 public class Firendly_ai : MonoBehaviour
 {
 
+
     public float lookro;
+
     NavMeshAgent nav;
     Transform target;
 

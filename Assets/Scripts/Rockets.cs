@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpitBall : MonoBehaviour {
+public class Rockets : MonoBehaviour {
 
     public Transform tar;
     public float speed;
     public GameObject splatter;
 
-    public string Tags;
-
-private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag(Tags))
+        if (other.CompareTag("Enemy"))
         {
             Destroy(gameObject);
             Instantiate(splatter, transform.position, transform.rotation);
@@ -26,7 +24,8 @@ private void OnTriggerEnter(Collider other)
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
         if (tar == null)
         {
             Destroy(gameObject);
@@ -45,7 +44,5 @@ private void OnTriggerEnter(Collider other)
         }
         transform.Translate(dir.normalized * disthisFrame, Space.World);
     }
-
-    
 
 }

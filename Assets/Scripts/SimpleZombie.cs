@@ -9,7 +9,7 @@ public class SimpleZombie : MonoBehaviour
     Transform target;
 
     NavMeshAgent nav;
-
+     
 	// Use this for initialization
 	void Start ()
     {

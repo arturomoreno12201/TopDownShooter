@@ -299,8 +299,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\BoomZombie.cs" />
+    <Compile Include="Assets\Scripts\BuletDamage.cs" />
     <Compile Include="Assets\Scripts\CameraFallow.cs" />
+    <Compile Include="Assets\Scripts\destroyTimer.cs" />
     <Compile Include="Assets\Scripts\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\FastZombie.cs" />
@@ -309,6 +312,8 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\rocket.cs" />
+    <Compile Include="Assets\Scripts\Rockets.cs" />
     <Compile Include="Assets\Scripts\SimpleZombie.cs" />
     <Compile Include="Assets\Scripts\SpitBall.cs" />
     <Compile Include="Assets\Scripts\SpiterZombie.cs" />
