@@ -313,6 +313,7 @@
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\Rockets.cs" />
     <Compile Include="Assets\Scripts\SimpleZombie.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\SpitBall.cs" />
     <Compile Include="Assets\Scripts\SpiterZombie.cs" />
   </ItemGroup>

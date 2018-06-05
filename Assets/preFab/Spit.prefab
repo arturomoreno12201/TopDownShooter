@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 198093002692410174}
   - component: {fileID: 199480665484814604}
   - component: {fileID: 114354372268035000}
+  - component: {fileID: 114832771279640710}
   m_Layer: 0
   m_Name: Spit
   m_TagString: Untagged
@@ -102,6 +103,19 @@ MonoBehaviour:
   speed: 3
   splatter: {fileID: 1331838282250088, guid: d4f3f4b480c124845b541e8617f8601b, type: 2}
   Tags: Player
+--- !u!114 &114832771279640710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1059589576685720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5017579f6fdbfb6478f7ae1b8ae82daa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 5
+  timer: 1
 --- !u!135 &135040218804316650
 SphereCollider:
   m_ObjectHideFlags: 1
