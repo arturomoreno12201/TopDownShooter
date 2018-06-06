@@ -241,6 +241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartingHealth: 80
   currentHealth: 0
+  Heals: {fileID: 1831139848704576, guid: ea14021184b1af44a951a694f83507a1, type: 2}
   sink: 2.5
 --- !u!114 &114959342844273722
 MonoBehaviour:

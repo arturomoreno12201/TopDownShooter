@@ -7,7 +7,7 @@ public class EnemyHealth : MonoBehaviour {
 
     public int StartingHealth = 100;
     public int currentHealth;
-
+    public GameObject Heals;
     public float sink = 2.5f;
 
     bool isDead;
@@ -58,6 +58,7 @@ public class EnemyHealth : MonoBehaviour {
         if (currentHealth <= 0 && !isDead)
         {
             Death();
+            Instantiate(Heals, transform.position, transform.rotation);
             Destroy(gameObject);
         }
 
