@@ -8,10 +8,11 @@ public class PlayerShoot : MonoBehaviour {
     public float TimeBetweenShots = 0.15f;
     public float range = 100;
 
-    float timer;
+    
     Ray ShootRay;
     RaycastHit Shoothit;
     int shootMask;
+    float timer;
 
     LineRenderer BuletTrail;
     float effectsDisplayTime = 0.2f;

@@ -9,20 +9,20 @@ public class EnemyAttack : MonoBehaviour
     public int AttackDamage = 10 ;
 
     Player playerH;
-    GameObject Player;
+    GameObject player;
     bool PlayerInRange;
     float timer;
 
 	// Use this for initialization
 	void Start ()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
-        playerH = Player.GetComponent<Player>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerH = player.GetComponent<Player>();
 	}
 
 	void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject == Player)
+        if (col.gameObject == player)
         {
             PlayerInRange = true;
         }
@@ -30,7 +30,7 @@ public class EnemyAttack : MonoBehaviour
 
     void OnTriggerExit(Collider col)
     {
-        if (col.gameObject == Player)
+        if (col.gameObject == player)
         {
             PlayerInRange = false;
         }
@@ -51,6 +51,7 @@ public class EnemyAttack : MonoBehaviour
         if (playerH.currentHealth <= 0)
         {
             //Debug.Log("stop");
+            Destroy(gameObject);
         }
 	}
     

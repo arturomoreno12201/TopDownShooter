@@ -101,6 +101,7 @@ public class Player : MonoBehaviour
     {
         isDead = true;
 
+
         //Destroy(gameObject);
     }
 }
