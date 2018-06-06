@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b87885286959ae40a7a0c6fe829b991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartingHealth: 100
+  StartingHealth: 60
   currentHealth: 0
   sink: 2.5
 --- !u!114 &114485662759867016
