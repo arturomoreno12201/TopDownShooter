@@ -26,4 +26,8 @@ public class test : MonoBehaviour {
             }
         }
     }
+    private void OnTriggerStay(Collider other)
+    {
+        
+    }
 }

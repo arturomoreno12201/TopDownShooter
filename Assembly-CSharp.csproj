@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\EnemyManager.cs" />
+    <Compile Include="Assets\Scripts\Fallow.cs" />
     <Compile Include="Assets\Scripts\FastZombie.cs" />
     <Compile Include="Assets\Scripts\Firendly_ai.cs" />
     <Compile Include="Assets\Scripts\FirendShoot.cs" />
