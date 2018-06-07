@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     float CamRayLength = 100f;
     bool isDead;
     bool Damaged;
+    bool Heal;
 
 	// Use this for initialization
 	void Start ()
@@ -56,6 +57,7 @@ public class Player : MonoBehaviour
         }
 
         Damaged = false;
+        Heal = false;
     }
     void Move(float h, float v)
     {
@@ -97,9 +99,25 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void GetHealth(int Amount)
+    {
+
+        Heal = true;
+
+        currentHealth += Amount;
+        healthSlider.value = currentHealth;
+
+        //if (currentHealth >= 0)
+        //{
+
+        //}
+
+    }
+
     void Death()
     {
         isDead = true;
+
 
         //Destroy(gameObject);
     }

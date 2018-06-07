@@ -288,35 +288,42 @@
     <Reference Include="Boo.Lang">
       <HintPath>Library\UnityAssemblies\Boo.Lang.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>Library\ScriptAssemblies\UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\BoomZombie.cs" />
     <Compile Include="Assets\Scripts\BuletDamage.cs" />
     <Compile Include="Assets\Scripts\CameraFallow.cs" />
+    <Compile Include="Assets\Scripts\CharterSelect.cs" />
     <Compile Include="Assets\Scripts\destroyTimer.cs" />
     <Compile Include="Assets\Scripts\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\FastZombie.cs" />
     <Compile Include="Assets\Scripts\Firendly_ai.cs" />
+    <Compile Include="Assets\Scripts\FirendShoot.cs" />
+    <Compile Include="Assets\Scripts\FriendBullet.cs" />
+    <Compile Include="Assets\Scripts\FriendsDamage.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PLayerHealthPickUp.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
-    <Compile Include="Assets\Scripts\rocket.cs" />
     <Compile Include="Assets\Scripts\Rockets.cs" />
     <Compile Include="Assets\Scripts\SimpleZombie.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\SpitBall.cs" />
     <Compile Include="Assets\Scripts\SpiterZombie.cs" />
+    <Compile Include="Assets\Scripts\test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\camraa.txt" />

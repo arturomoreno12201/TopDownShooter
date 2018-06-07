@@ -60,25 +60,36 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BoomZombie.cs" />
+    <Compile Include="Assets\Scripts\BuletDamage.cs" />
     <Compile Include="Assets\Scripts\CameraFallow.cs" />
+    <Compile Include="Assets\Scripts\CharterSelect.cs" />
     <Compile Include="Assets\Scripts\destroyTimer.cs" />
     <Compile Include="Assets\Scripts\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\FastZombie.cs" />
     <Compile Include="Assets\Scripts\Firendly_ai.cs" />
+    <Compile Include="Assets\Scripts\FirendShoot.cs" />
+    <Compile Include="Assets\Scripts\FriendBullet.cs" />
+    <Compile Include="Assets\Scripts\FriendsDamage.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PLayerHealthPickUp.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\Rockets.cs" />
     <Compile Include="Assets\Scripts\SimpleZombie.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\SpitBall.cs" />
     <Compile Include="Assets\Scripts\SpiterZombie.cs" />
+    <Compile Include="Assets\Scripts\test.cs" />
     <None Include="Assets\camraa.txt" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/7319a/Documents/Top_Down_Shooter/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/7319a/Documents/Top_Down_Shooter/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/7319a/Documents/Top_Down_Shooter/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

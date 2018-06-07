@@ -8,12 +8,13 @@ public class PlayerShoot : MonoBehaviour {
     public float TimeBetweenShots = 0.15f;
     public float range = 100;
 
-    float timer;
+    
     Ray ShootRay;
     RaycastHit Shoothit;
     int shootMask;
+    float timer;
 
-    LineRenderer BuletTrail;
+   public LineRenderer BuletTrail;
     float effectsDisplayTime = 0.2f;
 
 
@@ -52,8 +53,7 @@ public class PlayerShoot : MonoBehaviour {
     {
 
         BuletTrail.enabled = false;
-
-
+        
     }
 
     void Shoot()
@@ -63,6 +63,7 @@ public class PlayerShoot : MonoBehaviour {
 
         BuletTrail.enabled = true;
         BuletTrail.SetPosition(0, transform.position);
+        
 
         ShootRay.origin = transform.position;
         ShootRay.direction = transform.forward;

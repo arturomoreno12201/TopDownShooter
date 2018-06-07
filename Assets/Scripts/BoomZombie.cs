@@ -41,6 +41,7 @@ public class BoomZombie : MonoBehaviour {
             Collider[] objectDamaged = Physics.OverlapSphere(transform.position, lookRaidius);
             for (int i = 0; i < objectDamaged.Length; i++)
             {
+
                 objectDamaged[i].GetComponent<Player>().startingHealth -= damage;
             }
             Destroy(gameObject);

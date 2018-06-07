@@ -7,10 +7,11 @@ public class EnemyHealth : MonoBehaviour {
 
     public int StartingHealth = 100;
     public int currentHealth;
-
+    public GameObject Heals;
     public float sink = 2.5f;
 
     bool isDead;
+    bool Damage;
     bool isSinking;
 
     BoxCollider boxCol;
@@ -30,7 +31,7 @@ public class EnemyHealth : MonoBehaviour {
         {
             transform.Translate(-Vector3.up * sink * Time.deltaTime);
         }
-		
+        Damage = false;
 	}
 
     public void takeDamage(int Amount, Vector3 hitpoint)
@@ -47,6 +48,21 @@ public class EnemyHealth : MonoBehaviour {
         }
 
     }
+    public void TakeDamage(int Amount)
+    {
+
+        Damage = true;
+
+        currentHealth -= Amount;
+
+        if (currentHealth <= 0 && !isDead)
+        {
+            Death();
+            Instantiate(Heals, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
+
+    }
 
     void Death()
     {
@@ -55,7 +71,7 @@ public class EnemyHealth : MonoBehaviour {
 
         boxCol.isTrigger = true;
 
-        
+
 
     }
 
