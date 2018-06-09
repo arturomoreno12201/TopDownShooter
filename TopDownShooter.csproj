@@ -288,11 +288,17 @@
     <Reference Include="Boo.Lang">
       <HintPath>Library\UnityAssemblies\Boo.Lang.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.StandardEvents.dll</HintPath>
+    <Reference Include="com.unity.postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\com.unity.postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
@@ -345,6 +351,69 @@
     <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageList.uxml" />
     <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageManagerWindow.uxml" />
     <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageSearchFilterTabs.uxml" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\ACES.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\API\D3D11.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\API\D3D12.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\API\D3D9.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\API\Metal.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\API\OpenGL.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\API\PSP2.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\API\PSSL.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\API\Switch.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\API\Vulkan.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\API\XboxOne.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\AutoExposure.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\Bloom.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\Copy.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\CopyStd.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\DeferredFog.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\DepthOfField.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\DepthOfField.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\DiscardAlpha.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\DiskKernels.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\Distortion.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\Dithering.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\ExposureHistogram.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\ExposureHistogram.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\FastApproximateAntialiasing.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\FinalPass.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\Fog.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\GaussianDownsample.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\GrainBaker.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\Lut2DBaker.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\Lut3DBaker.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\MotionBlur.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\MultiScaleVO.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\MultiScaleVODownsample1.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\MultiScaleVODownsample2.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\MultiScaleVORender.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\MultiScaleVOUpsample.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\ScalableAO.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\ScalableAO.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasingBridge.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\TemporalAntialiasing.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\Texture2DLerp.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\Texture3DLerp.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Builtins\Uber.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Colors.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Debug\Histogram.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Debug\Histogram.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Debug\LightMeter.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Debug\Overlays.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Debug\Vectorscope.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Debug\Vectorscope.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Debug\Waveform.compute" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Debug\Waveform.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Editor\ConvertToLog.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Editor\CurveGrid.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Editor\Trackball.shader" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\Sampling.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\StdLib.hlsl" />
+    <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.postprocessing@2.0.7-preview\PostProcessing\Shaders\xRLib.hlsl" />
     <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.shadergraph@1.1.9-preview\Editor\Resources\Shaders\BlitNoAlpha.shader" />
     <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.shadergraph@1.1.9-preview\Editor\Resources\Shaders\Checkerboard.shader" />
     <None Include="C:\Users\s179138\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.shadergraph@1.1.9-preview\Editor\Resources\Styles\Blackboard.uss" />
