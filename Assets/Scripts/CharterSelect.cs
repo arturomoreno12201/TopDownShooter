@@ -7,16 +7,17 @@ public class CharterSelect : MonoBehaviour {
     List<GameObject> PlayerList;
 
 
+    objectmanager obmg;
 
     private GameObject[] Charterlist;
-    private int index;
+    private int index=0;
     SceneManager current;
 
     // Use this for initialization
     void Start()
     {
 
-        
+        obmg = GetComponent<objectmanager>();
 
         Charterlist = new GameObject[transform.childCount];
 
@@ -72,6 +73,7 @@ public class CharterSelect : MonoBehaviour {
     public void selectButtton()
     {
         DontDestroyOnLoad(transform.root.gameObject);
+        obmg.index = this.index;
     }
 
     public void select(string LevelName)

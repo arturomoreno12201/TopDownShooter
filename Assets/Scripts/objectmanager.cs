@@ -8,21 +8,20 @@ public class objectmanager : MonoBehaviour {
 
     public GameObject[] newThing;
   
-    public string[] stuff;
+    public string[] stuff ;
 
     string thing = "Holder";
     GameObject things;
     GameObject stuffs;
    
-    int index;
-   
+    public int index = 0;
+    
 
 
     // Use this for initialization
     void Start () {
 
-        index =     
-
+        
         things = GameObject.FindGameObjectWithTag(thing);
         stuffs = GameObject.Find(stuff[index]);
      
@@ -31,18 +30,26 @@ public class objectmanager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //things.transform.Rotate(0, 100 * Time.deltaTime, 0);
+
+
+        if (SpawnPoint == null)
+        {
+            SpawnPoint = GameObject.FindGameObjectWithTag("SpawnPoint").transform;
+        }
        
-         Destroy(GameObject.FindGameObjectWithTag(thing));
         HiFriend();
-       
+        
+        
 	}
 
     void HiFriend()
     {
-        if (GameObject.Find(stuff[index]))
+        GameObject nipslip = GameObject.FindGameObjectWithTag("Holder");
+
+        if (nipslip != null)
         {
-            Instantiate(newThing[3], SpawnPoint.position, SpawnPoint.rotation);
-           
+            Instantiate(newThing[index], SpawnPoint.position, SpawnPoint.rotation);
+            Destroy(nipslip);
         }
     }
 }
