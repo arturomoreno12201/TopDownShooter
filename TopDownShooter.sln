@@ -1,17 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDownShooter", "TopDownShooter.csproj", "{AD97D57C-9337-EBA9-03BD-DE1B3A05AFC9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDownShooter", "TopDownShooter.csproj", "{AD97D57C-9337-EBA9-03BD-DE1B3A05AFC9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDownShooter.Editor", "TopDownShooter.Editor.csproj", "{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDownShooter.Editor", "TopDownShooter.Editor.csproj", "{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDownShooter.Editor", "TopDownShooter.Editor.csproj", "{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDownShooter.Editor", "TopDownShooter.Editor.csproj", "{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}"
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopDownShooter", "Assembly-CSharp.csproj", "{3540D610-CBC1-E541-ADC9-3337CB6145AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,30 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AD97D57C-9337-EBA9-03BD-DE1B3A05AFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD97D57C-9337-EBA9-03BD-DE1B3A05AFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD97D57C-9337-EBA9-03BD-DE1B3A05AFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD97D57C-9337-EBA9-03BD-DE1B3A05AFC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD97D57C-9337-EBA9-03BD-DE1B3A05AFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD97D57C-9337-EBA9-03BD-DE1B3A05AFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD97D57C-9337-EBA9-03BD-DE1B3A05AFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD97D57C-9337-EBA9-03BD-DE1B3A05AFC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF7B7B80-1AA3-50A5-097C-1EEA4C7BAB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3540D610-CBC1-E541-ADC9-3337CB6145AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3540D610-CBC1-E541-ADC9-3337CB6145AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3540D610-CBC1-E541-ADC9-3337CB6145AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3540D610-CBC1-E541-ADC9-3337CB6145AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
